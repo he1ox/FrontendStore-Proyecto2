@@ -77,6 +77,20 @@ h3 { font-size: 2.4rem;}
 .header__logo {margin: 3rem 0;}
 /* end header */
 
+/* footer */
+.footer {
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer__texto{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/* end footer */
 
 /* Navegacion */
 .navegacion {
@@ -93,6 +107,12 @@ h3 { font-size: 2.4rem;}
     font-size: 3rem;
 }
 
+/* .navegacion__enlace:last-of-type {
+    /* Selecciona el ultimo elemento de x tipo
+    en este caso, los enlaces <a> */
+    /* margin-right: 0; 
+    }*/
 
 .navegacion__enlace:hover,
 .navegacion__enlace--activo {color: var(--secundario);}
+/* end Navegacion */
