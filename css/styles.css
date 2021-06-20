@@ -255,11 +255,20 @@ h3 { font-size: 1.4rem;}
 }
 .icono__titulo {
     color: var(--secundario);
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .icono__info {
     text-align: center;
     margin: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .icono__info {
+        font-size: 1.2rem;
+    }
+    .icono__titulo {
+        font-size: 2rem;
+    }
 }
