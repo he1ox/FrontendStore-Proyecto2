@@ -228,3 +228,38 @@ h3 { font-size: 1.4rem;}
         min-height: 40rem;
     }
 }
+/* iconos */
+
+.iconos {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media (min-width: 768px) {
+    .iconos {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+.icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.icono__titulo,
+.icono__info {
+    font-family: var(--fuentePrincipal);
+
+}
+.icono__titulo {
+    color: var(--secundario);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.icono__info {
+    text-align: center;
+    margin: 0 1rem;
+}
